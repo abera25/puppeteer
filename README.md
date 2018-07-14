@@ -1,14 +1,24 @@
 # Test on puppeteer
 
-## Launch application
+## Getting started
 
-`node -r @std/esm xxx.mjs` with `xxx` the name of application needed.
+### Before run application
 
-screenshot : Screenshot specific url
+```
+npm i
+```
 
-scrape : Scrape web site (go on url, click, and fetch data)
+### Launch application
 
-multiscrape : Open links on multiple tabs and fetch data
+```
+node -r @std/esm xxx.mjs
+```
+
+> with `xxx` the name of application needed.
+
+- screenshot : Screenshot specific url
+- scrape : Scrape web site (go on url, click, and fetch data)
+- multiscrape : Open links on multiple tabs and fetch data
 
 ## References:
 
